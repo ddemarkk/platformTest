@@ -119,7 +119,7 @@ exports[`displays correctly 1`] = `
           },
         ]
       }
-      placeholder="California"
+      placeholder="Ohio"
       value={null}
     />
     <label
