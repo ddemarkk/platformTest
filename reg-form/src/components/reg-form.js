@@ -114,7 +114,7 @@ class RegForm extends Component {
           </label>
           <Select
             styles={this.state.customStyles}
-            placeholder="California"
+            placeholder="Ohio"
             className="Select"
             value={this.state.selectedOption}
             onChange={this.handleSelectedOption}
@@ -167,10 +167,10 @@ class RegForm extends Component {
           {this.state.checked ? (
             <button className="butt">Sign Up</button>
           ) : (
-            <button className="butt" disabled style={{ opacity: 0.5 }}>
-              Sign Up
+              <button className="butt" disabled style={{ opacity: 0.5 }}>
+                Sign Up
             </button>
-          )}
+            )}
           <p id="logLink">
             Already have an account?
             <NavLink id="toLoginLink" to="/">
