@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+
+#root {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.formContainer,
+.logFormContainer,
+.resetFormContainer {
+  background: url(tang.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.loginForm {
+  border: 2px solid rgb(119, 8, 54);
+  border-radius: 10px;
+  z-index: 0;
+  width: 30%;
+  height: 57%;
+  margin: 80px;
+  position: relative;
+
+  left: 27%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+.resetForm {
+  border: 2px solid rgb(119, 8, 54);
+  border-radius: 10px;
+  z-index: 0;
+  width: 30%;
+  height: 46%;
+  margin: 80px;
+  position: relative;
+
+  left: 27%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+.form {
+  border: 2px solid rgb(119, 8, 54);
+  border-radius: 10px;
+  z-index: 0;
+  width: 30%;
+  height: 87%;
+  margin: 80px;
+  position: relative;
+  bottom: 100px;
+  left: 27%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.sName {
+  width: 25%;
+  position: relative;
+  left: 245px;
+  bottom: 40px;
+}
+.fName {
+  width: 25%;
+  position: relative;
+  left: 50px;
+  top: 2px;
+  margin-top: 40px;
+}
+
+.email {
+  position: relative;
+  bottom: 20px;
+  width: 73%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.logEmail {
+  position: relative;
+  top: 90px;
+  width: 73%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.resetEmail {
+  position: relative;
+  top: 80px;
+  width: 73%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.pNumber {
+  position: relative;
+  width: 73%;
+  margin-left: 50px;
+
+  bottom: 20px;
+}
+.Select {
+  width: 120px;
+  padding: 1px;
+  left: 50px;
+  bottom: 4px;
+}
+.zip {
+  width: 22%;
+  position: relative;
+  padding: 9px;
+  left: 240px;
+  bottom: 60px;
+}
+.pass {
+  width: 73%;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+}
+.logPass {
+  width: 73%;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.confPass {
+  width: 73%;
+  position: relative;
+  margin: 10px;
+  bottom: 30px;
+  left: 40px;
+}
+.butt {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Raleway";
+  width: 30%;
+  bottom: 20px;
+  left: 151px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.logButt {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Raleway";
+  width: 30%;
+  top: 145px;
+  left: 140px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.resetButt {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Raleway";
+  width: 30%;
+  top: 100px;
+  left: 140px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.check {
+  position: relative;
+  left: 95px;
+}
+#agree {
+  position: relative;
+  left: 130px;
+  bottom: 32px;
+  color: white;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 20;
+  left: 46.215%;
+  top: 7px;
+  border-radius: 100%;
+  background-color: rgb(220, 196, 250);
+  border: 1px solid rgb(220, 196, 250);
+  text-align: center;
+}
+.logLogo,
+.resetLogo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 20;
+  left: 46.215%;
+  top: 108px;
+  border-radius: 100%;
+  background-color: rgb(233, 159, 187);
+  border: 1px solid rgb(233, 159, 187);
+  text-align: center;
+}
+.wrapper {
+  left: 45.7%;
+  top: 67px;
+  position: relative;
+  z-index: 10;
+  width: 62px;
+  height: 30px; /* as the half of the width */
+
+  border-bottom-left-radius: 200px; /* 100px of height + 10px of border */
+  border-bottom-right-radius: 200px; /* 100px of height + 10px of border */
+  border: 1.5px solid rgb(119, 8, 54);
+  border-top: 3px solid #000000;
+}
+.logWrapper,
+.resetWrapper {
+  left: 45.7%;
+  top: 167px;
+  position: relative;
+  z-index: 10;
+  width: 62px;
+  height: 30px; /* as the half of the width */
+
+  border-bottom-left-radius: 200px; /* 100px of height + 10px of border */
+  border-bottom-right-radius: 200px; /* 100px of height + 10px of border */
+  border: 1.5px solid rgb(119, 8, 54);
+  border-top: 3px solid #000000;
+}
+#confirm {
+  position: relative;
+  left: 50px;
+  color: white;
+}
+#surname {
+  position: relative;
+  left: 239px;
+  bottom: 42px;
+  color: white;
+}
+#name {
+  position: relative;
+  left: 50px;
+  top: 40px;
+  color: white;
+}
+#email {
+  position: relative;
+  left: 50px;
+  bottom: 21px;
+  color: white;
+}
+#logEmail {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  color: white;
+}
+#resetEmail {
+  position: relative;
+  left: 50px;
+  top: 80px;
+  color: white;
+}
+#phoneNumber {
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+  color: white;
+}
+#state {
+  position: relative;
+  bottom: 6px;
+  left: 50px;
+  color: white;
+}
+#zipCode {
+  position: relative;
+  left: 240px;
+  bottom: 63px;
+  color: white;
+}
+#password {
+  color: white;
+  position: relative;
+  bottom: 43px;
+  left: 50px;
+}
+#logPassword {
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+#confirm {
+  position: relative;
+  bottom: 20px;
+  color: white;
+}
+#logoText,
+#logLogoText,
+#resetLogoText {
+  position: relative;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Shadows Into Light", serif;
+  bottom: 7px;
+  right: 1px;
+}
+
+#logText {
+  color: white;
+  font-family: "Raleway";
+  font-weight: normal;
+  position: relative;
+  margin: 0px;
+  top: 65px;
+  left: 95px;
+}
+#resetText {
+  color: white;
+  font-family: "Raleway";
+  font-weight: normal;
+  position: relative;
+  margin: 0px;
+  top: 50px;
+  left: 110px;
+}
+#regLink {
+  color: white;
+  position: relative;
+  top: 135px;
+  left: 110px;
+}
+#regResetLink {
+  color: white;
+  position: relative;
+  top: 80px;
+  left: 110px;
+}
+#signLink,
+#resetLink {
+  color: white;
+}
+#resetPassLink {
+  color: white;
+  position: relative;
+  top: 155px;
+  left: 80px;
+}
+#intoLoginLink {
+  color: white;
+  position: relative;
+  top: 140px;
+  left: 110px;
+}
+#toLogLink {
+  color: white;
+  position: relative;
+}
+#logLink {
+  color: white;
+  position: relative;
+  left: 110px;
+}
+#toLoginLink {
+  color: white;
+}
+label {
+  font-family: "Raleway";
+}
+input {
+  border-radius: 3px;
+  opacity: 0.9;
+}
+p {
+  font-size: small;
+  font-family: "Raleway";
+}
+button {
+  opacity: 1;
+}

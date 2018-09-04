@@ -1,0 +1,36 @@
+{
+  "name": "reg-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "emotion": "^9.2.6",
+    "jest-expo": "^25.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-input-mask": "^2.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^2.0.0",
+    "react-test-render": "^1.1.1",
+    "regenerator-runtime": "^0.12.1",
+    "enzyme-adapter-react-16": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.4.4",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.5.0",
+    "react-test-renderer": "^16.4.2",
+    "sinon": "^6.1.5"
+  }
+}
