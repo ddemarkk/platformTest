@@ -15,7 +15,7 @@ it("state is correct ", () => {
 it("placeholder correct ", () => {
     const wrapper = shallow(<RegForm />)
 
-    expect(wrapper.find('Select').shallow().hasClass('placeholder')).toEqual(true)
+    expect(wrapper.find('Select.Select').shallow().hasClass('Ohio')).toEqual(true)
 
     //expect(wrapper.state().postCode).toEqual('35816')
 })
@@ -31,7 +31,7 @@ it("Sign Up is visible ", () => {
 
 it("phone number mask displays", () => {
     const wrapper = shallow(<RegForm />)
-    wrapper.update()
-    expect(wrapper.contains('logo')).toEqual(true)
+
+    expect(wrapper.find('input.confPass').hasClass('placeholder')).toEqual(true)
 
 })
